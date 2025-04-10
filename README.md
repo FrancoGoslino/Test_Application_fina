@@ -11,10 +11,17 @@ PILARES PRINCIPALES:
 
 
 COMPONENTES PRINCIPALES
-  -  Calendario 
+  -  Login y creacion de usuario
+  -  Home page
+  -  Calendario
+  -  estadisticas
+  -  configuracion (personalizacion app)
+  -  perfil de uuario
+  -  menu desplegable
 
 FUNCIONES
 
 DISEÑO
-
+  - Ver diseño en la URL:
+  - 
 AMPLIACIONES
