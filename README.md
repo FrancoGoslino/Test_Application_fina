@@ -2,6 +2,8 @@ OBJETIVO: Este proyecto tiene como objetivo facilitar a cualquier usuario el seg
 
 La aplicacion se basa principalmente en el seguimiento del estado de animo y de tareas especificas que se quieran lograr tanto en un lapso de tiempo determinado, como no.
 
+DISEÑO
+  - Ver diseño en la URL: https://excalidraw.com/#json=zDiu8Us2ny0OqsJb_kuhr,SkQ2onBkok_sV23RJN9m_A
 
 PILARES PRINCIPALES:
   -  Amigable con el usuario (aplicación ATP)
@@ -21,7 +23,4 @@ COMPONENTES PRINCIPALES
 
 FUNCIONES
 
-DISEÑO
-  - Ver diseño en la URL:
-  - 
 AMPLIACIONES
