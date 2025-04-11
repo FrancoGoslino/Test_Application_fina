@@ -3,11 +3,12 @@ OBJETIVO: Este proyecto tiene como objetivo facilitar a cualquier usuario el seg
 La aplicacion se basa principalmente en el seguimiento del estado de animo y de tareas especificas que se quieran lograr tanto en un lapso de tiempo determinado, como no.
 
 DISEÑO
-  - Ver diseño en la URL:  https://excalidraw.com/#json=p3NPe-K1nGQAniRMO5kQC,zhh7wS8aTtkqyh9WuS2Dqg
+  - Ver diseño en la URL:  [https://excalidraw.com/#json=p3NPe-K1nGQAniRMO5kQC,zhh7wS8aTtkqyh9WuS2Dqg](https://excalidraw.com/#json=3ZIdAM_1VThCasdtYhWEJ,MYeaXj-12b4dbKaDGRK0sg)
 
 
 PILARES PRINCIPALES:
   -  Amigable con el usuario (aplicación ATP)
+  -  Motivacional para la continuidad
   -  Diseño simple e intuitivo
   -  Personalizable (colores, emojis, etc)
   -  Segura y privada (clave de inicio)
@@ -24,4 +25,14 @@ COMPONENTES PRINCIPALES
 
 FUNCIONES
 
-AMPLIACIONES
+ANUNCIOS:
+-  Se planea contar con anuncion NO invasivos para el usuario. Y se planea implementar un sistema para visualizar anuncio voluntariamente a cambio de recompenzas
+
+AMPLIACIONES: 
+-  Se planea implementar un sistema de recomenzas por cumplir con los objetivos diarios. Este sistema se compondrá por monedas y se ganará 1 (una) por objetido cumplido al día. Con estas, se podrán comprar mejoras dentro de la aplicación, personalización de perfil y hasta eliminación de anuncios. 
+
+
+
+
+
+
