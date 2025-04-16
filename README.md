@@ -3,7 +3,8 @@ OBJETIVO: Este proyecto tiene como objetivo facilitar a cualquier usuario el seg
 La aplicacion se basa principalmente en el seguimiento del estado de animo y de tareas especificas que se quieran lograr tanto en un lapso de tiempo determinado, como no.
 
 DISEÑO
-  - Ver diseño en la URL:  [[https://excalidraw.com/#json=p3NPe-K1nGQAniRMO5kQC,zhh7wS8aTtkqyh9WuS2Dqg](https://excalidraw.com/#json=3ZIdAM_1VThCasdtYhWEJ,MYeaXj-12b4dbKaDGRK0sg)](https://excalidraw.com/#json=CRZTZ8ItCEk8CX4noLD8i,74b0kfc7zKTScvPCYexBzw)
+  - Ver diseño en la URL:  [https://excalidraw.com/#json=r1-K_LAOAUwBZSVet2zWI,wIk-ZZTqIVCCO4k95RhUeQ](https://excalidraw.com/#json=r1-K_LAOAUwBZSVet2zWI,wIk-ZZTqIVCCO4k95RhUeQ)
+  - ![Uploading image.png…]()
 
 
 PILARES PRINCIPALES:
