@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Test Application</string>
+    <string name="logo_de_inicio_sesion_google">Logo de inicio sesion google</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="or_login_with">Or login with</string>
 </resources>

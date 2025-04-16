@@ -17,7 +17,8 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/logfacebook"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/logo_google" />
+        app:srcCompat="@drawable/logo_google"
+        android:contentDescription="@string/logo_de_inicio_sesion_google"/>
 
     <ImageView
         android:id="@+id/logo_x"
@@ -45,17 +46,18 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="346dp"
+        android:layout_height="48dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="277dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="278dp" />
 
     <Button
         android:id="@+id/button2"
@@ -64,7 +66,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
-        android:text="Button"
+        android:text="@string/register"
         android:backgroundTint="#234579"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -79,8 +81,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,7 +97,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
-        android:text="Log in"
+        android:text="@string/log_in"
         android:backgroundTint="#238234"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -108,7 +111,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="32dp"
-        android:text="Or login with"
+        android:text="@string/or_login_with"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
