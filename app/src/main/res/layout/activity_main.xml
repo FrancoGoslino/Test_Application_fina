@@ -96,6 +96,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <ImageView
+            android:id="@+id/logo_google"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/logo_de_inicio_sesion_google"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logo_google" />
+
+        <ImageView
             android:id="@+id/logo_x"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -112,15 +121,15 @@
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/logo_facebook" />
 
-        <ImageView
-            android:id="@+id/logo_google"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="16dp"
-            android:contentDescription="@string/logo_de_inicio_sesion_google"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/logo_google" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_app"
+        android:layout_width="163dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/logo_app"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="80dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
