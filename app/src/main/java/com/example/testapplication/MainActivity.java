@@ -1,5 +1,6 @@
 package com.example.testapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -27,15 +28,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void funcionDeshabilitada(View view){
-        TextView welcome_message = findViewById(R.id.button_login);
-        welcome_message.setText("New message");
-        Toast messageToast = Toast.makeText(this, "Funcion deshabilitada temporalmente", Toast.LENGTH_LONG);
+        Toast messageToast = Toast.makeText(this, "Funcion deshabilitada temporalmente", Toast.LENGTH_SHORT);
         messageToast.show();
     }
 
-    public void UpdateMessage(View view){
-        TextView welcome_message = findViewById(R.id.button_login);
-        welcome_message.setText("New message");
+    public void Onclick_Login(View view){
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+
+
+
+//        TextView welcome_message = findViewById(R.id.button_login);
+//        welcome_message.setText("New message");
 
     }
 }
