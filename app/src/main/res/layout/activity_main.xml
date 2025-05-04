@@ -12,9 +12,11 @@
         android:id="@+id/img_app"
         android:layout_width="163dp"
         android:layout_height="122dp"
-        app:srcCompat="@drawable/logo_app"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="80dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_app" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -34,6 +36,7 @@
 
     <Button
         android:id="@+id/button2"
+        android:onClick="funcionDeshabilitada"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -125,19 +128,11 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="0dp"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/logo_facebook" />
 
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/img_app"
-        android:layout_width="163dp"
-        android:layout_height="122dp"
-        app:srcCompat="@drawable/logo_app"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="80dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
